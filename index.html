@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>GameJam</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <meta name="author" content="liv, erol, steph, alli">
+
+ <link rel="stylesheet" type="text/css" href="./css/index.css"/>
+
+
+</head>
+<body>
+
+
+  <div id='container'>
+
+    <button id='go_btn'>Start</button>
+
+    <div id='stage_div'>
+      <img id='background' src="./images/start.png"></img>
+
+      <!--  the only canvas el -->
+      <canvas width="800" height="500" id='character'></canvas>
+    </div>
+
+
+    <div id='story_div' >  </div>
+
+    <div id='action_div' class='hidden'>
+      <button id='fight_btn'></button>
+      <button id='flight_btn'></button>
+      <button id='tend_btn'></button>
+      <button id='befriend_btn'></button>
+    </div>
+
+  </div>
+
+
+  <script src="./js/index.js"></script>
+
+</body>
+</html>
